@@ -110,7 +110,7 @@ const getHistory = async () => {
     .select("*")
     .order("created_at", { ascending: false })
     .range(0, 2);
-  if (res) {
+  if (res.data.length >= 1) {
     for (var i in res.data) {
       list += `
             <li class="list-group-item list-group-item-${
