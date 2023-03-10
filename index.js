@@ -1,7 +1,5 @@
-const SUPABASE_SECRET =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndiZmVnamF5amVjb3B1bHNlaXl6Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY3ODM2NjA3OCwiZXhwIjoxOTkzOTQyMDc4fQ.Y7aI6iRAOnaDQ6__C4pEfHwOMopHGMG2lPdMPDh1uYM";
-const SUPABASE_URL = "https://wbfegjayjecopulseiyz.supabase.co";
-
+const SUPABASE_SECRET = "<YOUR_SUPABASE_PUBLIC_KEY>";
+const SUPABASE_URL = "<YOUR_SUPABASE_PROJECT_URL>";
 const db = supabase.createClient(SUPABASE_URL, SUPABASE_SECRET);
 
 //Chart
